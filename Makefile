@@ -13,5 +13,8 @@ publish:
 package-install:
 	python -m pip install --user dist/*.whl
 
+package-reinstall:
+	python -m pip install --user --force-reinstall dist/*.whl
+
 lint:
 	poetry run flake8 brain_games
