@@ -9,3 +9,6 @@ def generate_qa_pair():
 	task = '{} {} {}'.format(randint(0, 100), choice(op) , randint(0, 100))
 	result = str(eval(task))
 	return (task, result)
+
+
+print(generate_qa_pair())

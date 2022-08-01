@@ -6,7 +6,7 @@ def welcome():
 
 
 def get_name():
-	return prompt.string('May i have your name? ')
+	return prompt.string('May I have your name? ')
 
 
 def greet(name):
