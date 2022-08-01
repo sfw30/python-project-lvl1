@@ -12,3 +12,4 @@ def generate_qa_pair():
 	number = randint(0, 100)
 	even = 'yes' if is_even(number) else 'no'
 	return (number, even)
+
