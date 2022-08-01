@@ -19,5 +19,4 @@ def get_answer():
 
 def run():
 	welcome()
-	print()
 	greet(get_name())
