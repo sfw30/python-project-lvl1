@@ -13,6 +13,6 @@ def is_prime(number):
 
 
 def generate_qa_pair():
-	number = randint(2, 1000)
-	result = 'yes' if is_prime(number) else 'no'
-	return(number, result)
+    number = randint(2, 1000)
+    result = 'yes' if is_prime(number) else 'no'
+    return(number, result)

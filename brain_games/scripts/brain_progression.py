@@ -3,8 +3,8 @@ from brain_games.games import prog
 
 
 def main():
-	run(prog)
+    run(prog)
 
 
 if __name__ == '__main__':
-	main()
+    main()
