@@ -18,6 +18,3 @@ def generate_qa_pair():
 	return (task, str(result))
 
 
-generate_qa_pair()
-
-
