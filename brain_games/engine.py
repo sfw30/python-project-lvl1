@@ -17,4 +17,4 @@ def run(game):
 			print("Let's try again, {}!".format(name))
 			break
 	else:
-		print('Conratulations, {}!'.format(name))
+		print('Congratulations, {}!'.format(name))
